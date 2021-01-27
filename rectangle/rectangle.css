@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div {
+    height: 20em;
+    width: 40em;
+    background-color: slateblue;
+    
+}
+@keyframes dissapear {
+    50% {
+       background-color: white;
+    }
+}
+.dissapear {
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}

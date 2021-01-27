@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(237 , 213 ,133) ;
+    height: 100vh;
+    
+}
+@keyframes bubble {
+    from {
+        transform: translateY(-5vh) scale(2);
+    }
+}
+.bubble {
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    border-color:tomato;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    transform: translateY(100vh);
+    animation-name: bubble;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+   
+
+
+}
